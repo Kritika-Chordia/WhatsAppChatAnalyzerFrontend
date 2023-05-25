@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+      body{
+        background-color: black;
+      }
+      .student ul{
+        margin: 0%;
+      }
+      .bg-img{
+        max-height: 1920px;
+        height: 200px;
+        background-image: url("Assets/doodle.jpg");
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        filter: blur(7px);
+        -webkit-filter: blur(7px);
+      }
+      .starter{
+        background-color: rgb(0,0,0);
+        background-color: rgba(0, 0, 0, 0.399);
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+      }
+      .starter:hover{
+        background-color: white;
+        color:rgb(19, 11, 62);
+        font-size: 30px;
+      }
+      .intro{
+        display: flex;
+        background-color: rgb(15, 10, 64);
+      }
+      .card{
+        border: 3px solid;
+        margin: 15px;
+        padding: 8px;
+        width: 33.66%;
+        text-align:center;
+        color: azure;
+        background-color: rgba(8, 7, 34, 0.987);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      .card:hover{
+        background-color: cadetblue;
+        color: black;
+        font-weight:bold ;
+        border: 5px solid black;
+        border-radius: 15px;
+      }
+    </style>
+</head>
+<body>
+    <nav id="navmain"  class="navbar fixed-top navbar-expand navbar-dark">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Home.html">HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="How_to_use.html">HOW TO USE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="app.py">LETS ANALYSE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Creators.html">CREATORS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact_Us.html">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+  </nav>
+  <div class="homebar" >
+    <div class="bg-img"></div>
+    <div class="starter">
+      <p>Welcome to WhatsApp Chat Analyser</p>
+    </div>
+    <div class="intro">
+      <div class="card">
+        <p>Unlock the power of your conversations with WhatsApp Chat Analyzer - gain deep insights and uncover hidden patterns like never before!</p>
+      </div>
+      <div class="card">
+        <p>Discover the secrets within your WhatsApp chats with our revolutionary Chat Analyzer - understand your connections, emotions, and trends at a whole new level</p>
+      </div>
+      <div class="card">
+        <p>Take control of your WhatsApp world with Chat Analyzer - decode the hidden messages, track sentiments, and optimize your communication for success!</p>
+      </div>
+    </div>
+    <div class="intro">
+      <div class="card">
+        <p>Tap into the intelligence of your WhatsApp chats with Chat Analyzer - understand your connections, identify influencers, and supercharge your social interactions!</p>
+      </div>
+      <div class="card">
+        <p>Step into the future of conversation analysis with WhatsApp Chat Analyzer - harness the power of advanced algorithms to uncover trends, sentiments, and opportunities!</p>
+      </div>
+      <div class="card">
+        <p>Unleash the true potential of your WhatsApp conversations with Chat Analyzer - unravel meaningful insights, boost productivity, and strengthen your relationships!</p>
+      </div>
+    </div>
+  </div>
+  <!--Footer-->
+  <div class="footer">
+    <div class="social-links">
+      <h5 class="secnd-text">Connect with us:</h5>
+      <div class="student" id="kritika" style="float: left; margin-left: 15px;">
+        <h6>Kritika Chordia</h6>
+        <ul class="social-media">
+          <li><a href="mailto:19cse053@gweca.ac.in" target="_blank"><i class='bx bxl-gmail'></i></a></li>
+          <li><a href="https://linkedin.com/in/kritika-chordia-1b6a5721a" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+          <li><a href="https://github.com/Kritika-Chordia" target="_blank"><i class='bx bxl-github'></i></a></li>
+        </ul>
+      </div>
+      <div class="student" id="mahika" style="margin-left: 25%;">
+        <h6>Mahika Kakani</h6>
+        <ul class="social-media">
+          <li><a href="mailto:19cse057@gweca.ac.in" target="_blank"><i class='bx bxl-gmail'></i></a></li>
+          <li><a href="https://www.linkedin.com/in/mahika-kakani-919a5621a" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+          <li><a href="https://github.com/MahikaKakani" target="_blank"><i class='bx bxl-github'></i></a></li>
+        </ul>
+      </div>
+      <div class="student" id="lanisha" style="float: right; margin-right: 15px;">
+        <h6>lanisha Saini</h6>
+        <ul class="social-media">
+          <li><a href="mailto:19cse054@gweca.ac.in" target="_blank"><i class='bx bxl-gmail'></i></a></li>
+          <li><a href="https://www.linkedin.com/in/lanisha-saini-187733221" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+          <li><a href="https://github.com/lanisaini" target="_blank"><i class='bx bxl-github' ></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
